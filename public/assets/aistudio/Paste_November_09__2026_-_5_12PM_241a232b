@@ -1,0 +1,1329 @@
+# ULTIMATE MASTER PROMPT – BUILD, TEST, PACKAGE AND PUBLISH A COMPLETE ANDROID WELLNESS APPLICATION
+
+## PROJECT NAME
+
+**BreatheLife – Complete Breathing, Buteyko, Meditation, Productivity & Habit Management App**
+
+Act as an expert team consisting of:
+
+- Senior Android Application Architect
+- Kotlin and Jetpack Compose Developer
+- Full-Stack Software Engineer
+- UI/UX Designer
+- Database Architect
+- Android Build and Release Engineer
+- Google Play Store Publishing Specialist
+- QA and Security Engineer
+- Digital Wellness and Breathing Exercise Specialist
+
+Your task is to DESIGN, DEVELOP, IMPLEMENT, TEST, PACKAGE AND PREPARE FOR PUBLICATION a complete, production-quality Android application.
+
+This is not a prototype, a demonstration, a static website or a collection of UI screens.
+
+I require a complete Android Studio project with functioning features, source code, database, notification system, APK, AAB and all files required to publish the application on Google Play Store.
+
+The application must be ready for real-world use.
+
+---
+
+# PART 1: APPLICATION OBJECTIVE
+
+Develop an all-in-one wellness and productivity application combining the functionality of:
+
+1. Professional breathing exercise applications.
+2. Buteyko breathing training applications.
+3. Meditation applications.
+4. Mindfulness applications.
+5. Pomodoro productivity applications.
+6. Habit tracking applications.
+7. Sleep and relaxation applications.
+8. Personal wellness tracking applications.
+9. Daily routine and reminder applications.
+10. Personal progress and analytics applications.
+
+The application must provide a unified experience with one dashboard, one calendar, one reminder engine and one progress tracking system.
+
+Application name: BreatheLife
+
+Suggested package name: com.breathelife.wellness
+
+Make the package name configurable before release.
+
+Target platform: Android smartphones and tablets.
+
+Development language: Kotlin.
+
+UI framework: Jetpack Compose.
+
+Design framework: Material Design 3.
+
+Architecture: Clean Architecture + MVVM.
+
+Database: Room.
+
+Preferences: DataStore.
+
+Background processing: WorkManager and AlarmManager where appropriate.
+
+Notifications: Native Android Notification System.
+
+The application must support offline operation for all essential functions.
+
+---
+
+# PART 2: COMPLETE APPLICATION FEATURES
+
+Implement all the following modules.
+
+## 2.1 Home Dashboard
+
+Create a personalized home dashboard showing:
+
+- Daily wellness overview.
+- Daily breathing minutes.
+- Buteyko exercise progress.
+- Meditation progress.
+- Pomodoro focus sessions.
+- Daily productivity minutes.
+- Habit completion percentage.
+- Current habit streak.
+- Upcoming reminders.
+- Daily goals.
+- Weekly progress.
+- Monthly progress.
+- Exercise history.
+- Quick-start buttons.
+- Personalized daily routine.
+- Achievements.
+
+Provide a customizable dashboard.
+
+## 2.2 Complete Breathing Exercise Library
+
+Include the following categories:
+
+Basic breathing:
+- Diaphragmatic breathing.
+- Belly breathing.
+- Deep breathing.
+- Slow breathing.
+- Natural breathing.
+- Nasal breathing.
+- Controlled breathing.
+- Breath awareness.
+
+Relaxation:
+- 4-7-8 breathing.
+- Box breathing.
+- 4-6 breathing.
+- 5-5 breathing.
+- Coherent breathing.
+- Resonance breathing.
+- Extended exhalation breathing.
+
+Concentration:
+- Equal breathing.
+- Rhythmic breathing.
+- Mindful breathing.
+- Pre-study breathing.
+- Pre-work breathing.
+
+Buteyko:
+- Buteyko breathing introduction.
+- Nasal breathing awareness.
+- Gentle reduced breathing.
+- Relaxed breathing.
+- Control Pause educational measurement.
+- Maximum Pause educational measurement.
+- Comfortable breath-hold education.
+- Daily Buteyko routine.
+- Buteyko progress tracking.
+- CP measurement history.
+- Buteyko practice journal.
+
+Other routines:
+- Morning breathing.
+- Evening breathing.
+- Before sleep.
+- Before study.
+- Before examinations.
+- Stress relaxation.
+- Workplace relaxation.
+- Travel relaxation.
+
+For every exercise include instructions, duration, difficulty, benefits framed as general wellness information, safety warnings, animation and session tracking.
+
+Do not claim to diagnose or treat medical conditions.
+
+Do not encourage aggressive breath holding, forced hyperventilation or uncomfortable breathing. Provide appropriate safety screening and warnings.
+
+## 2.3 Breathing Animation Engine
+
+Create an advanced animated breathing guide.
+
+Features:
+- Expanding and contracting circle.
+- Inhale animation.
+- Exhale animation.
+- Hold animation where appropriate.
+- Rest animation.
+- Adjustable durations.
+- Custom breathing patterns.
+- Session countdown.
+- Cycle counter.
+- Audio guidance.
+- Voice instructions.
+- Vibration feedback.
+- Background sounds.
+- Pause.
+- Resume.
+- Stop.
+- Restart.
+- Completion screen.
+
+Support screen-awake mode and correct background behaviour.
+
+## 2.4 Buteyko Training Module
+
+Create a separate professional Buteyko section.
+
+Include:
+- Beginner programme.
+- Intermediate programme.
+- Advanced educational programme.
+- Daily schedule.
+- Practice history.
+- CP tracking.
+- MP tracking.
+- Progress graphs.
+- Personal journal.
+- Guided sessions.
+- Reminders.
+- Session completion.
+
+All measurements must be clearly identified as self-recorded educational measurements, not medical measurements.
+
+Do not interpret CP or MP as oxygen saturation, lung capacity or proof of disease improvement.
+
+Provide appropriate medical safety notices.
+
+## 2.5 Scheduling and Calendar
+
+Implement a complete scheduling system.
+
+Features:
+- Daily calendar.
+- Weekly calendar.
+- Monthly calendar.
+- Custom routines.
+- Recurring sessions.
+- Multiple reminders.
+- Drag-and-drop rescheduling where practical.
+- Missed-session tracking.
+- Snooze.
+- Skip.
+- Reschedule.
+- Mark completed.
+- Reminder history.
+- Quiet hours.
+
+Allow independent scheduling for breathing, Buteyko, meditation, Pomodoro, habits and sleep.
+
+## 2.6 Pomodoro Timer
+
+Implement:
+- 25-minute focus timer.
+- 5-minute short break.
+- 15-minute long break.
+- Custom timer.
+- Automatic transitions.
+- Pause and resume.
+- Skip.
+- Reset.
+- Daily focus target.
+- Task management.
+- Focus history.
+- Weekly and monthly statistics.
+- Background operation.
+- Notifications.
+- Optional breathing breaks.
+
+Provide study, reading, coding, work and custom modes.
+
+## 2.7 Complete Habit Tracker
+
+Support unlimited custom habits.
+
+Examples:
+- Breathing.
+- Buteyko.
+- Meditation.
+- Exercise.
+- Reading.
+- Walking.
+- Drinking water.
+- Studying.
+- Early waking.
+- Early sleeping.
+- Journaling.
+
+Features:
+- Daily, weekly and monthly tracking.
+- Custom frequencies.
+- Multiple reminders.
+- Habit streaks.
+- Longest streak.
+- Completion percentage.
+- Habit calendar.
+- Heatmap.
+- Habit notes.
+- Habit categories.
+- Goals.
+- Archive.
+- Edit and delete.
+- Statistics.
+- Missed habit history.
+
+## 2.8 Meditation
+
+Include:
+- Guided meditation.
+- Silent meditation.
+- Mindfulness.
+- Body scan.
+- Gratitude meditation.
+- Morning meditation.
+- Evening meditation.
+- Relaxation.
+- Mindful walking.
+
+Provide meditation timers, bells, nature sounds, voice guidance and history.
+
+Use original or properly licensed audio.
+
+## 2.9 Sleep and Relaxation
+
+Include:
+- Sleep reminders.
+- Bedtime routines.
+- Wake-up reminders.
+- Sleep journal.
+- Manual sleep duration.
+- Sleep quality rating.
+- Sleep consistency.
+- Sleep meditation.
+- White noise.
+- Rain sounds.
+- Nature sounds.
+- Audio sleep timer.
+
+Do not claim to measure sleep stages without appropriate device integration.
+
+## 2.10 Notifications and Reminders
+
+Create a robust notification engine.
+
+Include:
+- Breathing reminders.
+- Buteyko reminders.
+- Habit reminders.
+- Meditation reminders.
+- Pomodoro reminders.
+- Sleep reminders.
+- Wake-up reminders.
+- Custom reminders.
+
+Support:
+- Recurring schedules.
+- Snooze.
+- Vibration.
+- Sound.
+- Notification actions.
+- Quiet hours.
+- Permission handling.
+- Reboot recovery.
+- Time-zone changes.
+- Notification rescheduling.
+
+Ensure reminders do not duplicate after application updates or device restarts.
+
+## 2.11 Analytics and Reporting
+
+Generate real statistics using actual stored user data.
+
+Include:
+- Daily reports.
+- Weekly reports.
+- Monthly reports.
+- Breathing duration.
+- Meditation duration.
+- Focus duration.
+- Habit completion.
+- Buteyko practice history.
+- CP history.
+- Sleep journal trends.
+- Personal achievements.
+
+Provide:
+- Line graphs.
+- Bar graphs.
+- Calendar heatmaps.
+- Progress indicators.
+- Weekly comparisons.
+- Monthly comparisons.
+
+Support CSV and PDF exports.
+
+Never use fabricated analytics as actual user results.
+
+## 2.12 Personalized Routine Builder
+
+Allow users to construct personalized daily routines.
+
+Example:
+
+Morning:
+- Wake-up.
+- Morning breathing.
+- Gentle Buteyko practice.
+- Meditation.
+- Habit checklist.
+
+Afternoon:
+- Breathing break.
+- Pomodoro session.
+- Mindfulness.
+
+Evening:
+- Relaxation breathing.
+- Meditation.
+- Daily review.
+
+Night:
+- Sleep routine.
+- Relaxation audio.
+- Bedtime reminder.
+
+Allow users to customize all activities and timings.
+
+## 2.13 Gamification
+
+Include:
+- Achievement badges.
+- Daily goals.
+- Weekly goals.
+- Habit streaks.
+- Milestones.
+- Personal records.
+- Progress levels.
+- Completion rewards.
+
+Avoid guilt-inducing messages or unhealthy pressure.
+
+## 2.14 User Profile and Settings
+
+Include:
+- User profile.
+- Age range.
+- Preferred language.
+- Time zone.
+- Wake-up time.
+- Bedtime.
+- Experience level.
+- Goals.
+- Notification preferences.
+- Theme preferences.
+- Data management.
+- Privacy controls.
+
+Account registration must be optional for offline use.
+
+---
+
+# PART 3: ADVANCED AND OPTIONAL FEATURES
+
+Include the following where technically feasible:
+
+1. Android home screen widgets.
+2. Wear OS compatibility.
+3. Google Health Connect integration.
+4. Google Calendar integration.
+5. Cloud backup.
+6. Firebase authentication.
+7. Optional cloud synchronization.
+8. Voice-guided breathing.
+9. AI-based routine suggestions.
+10. Smart daily scheduling.
+11. Personalized exercise recommendations.
+12. Multiple sound themes.
+13. Multilingual interface.
+14. Family profile support.
+15. Custom exercise creation.
+16. Custom timer creation.
+17. Data import and export.
+
+These must be optional integrations and must not prevent offline functionality.
+
+Do not include AI-generated medical advice.
+
+---
+
+# PART 4: COMPLETE ANDROID TECHNICAL IMPLEMENTATION
+
+Create a genuine native Android application.
+
+Mandatory technologies:
+
+- Kotlin.
+- Jetpack Compose.
+- Material Design 3.
+- MVVM.
+- Clean Architecture.
+- Room Database.
+- DataStore.
+- Navigation Compose.
+- Kotlin Coroutines.
+- StateFlow.
+- WorkManager.
+- AlarmManager where justified.
+- Android Notification APIs.
+
+Use current stable compatible dependencies at development time.
+
+Avoid deprecated Android APIs.
+
+Create a modular project structure.
+
+Suggested structure:
+
+app/
+core/
+data/
+database/
+domain/
+feature_dashboard/
+feature_breathing/
+feature_buteyko/
+feature_meditation/
+feature_pomodoro/
+feature_habits/
+feature_sleep/
+feature_calendar/
+feature_analytics/
+feature_settings/
+notifications/
+backup/
+common/
+
+Create proper repositories, ViewModels, use cases, data models, database entities, DAOs and dependency injection.
+
+Do not put the entire application in one file.
+
+---
+
+# PART 5: DATABASE AND DATA MANAGEMENT
+
+Create a complete Room database.
+
+Entities must include:
+
+- UserProfile.
+- BreathingExercise.
+- BreathingSession.
+- ButeykoMeasurement.
+- MeditationSession.
+- PomodoroSession.
+- Task.
+- Habit.
+- HabitCompletion.
+- Reminder.
+- ScheduledRoutine.
+- SleepRecord.
+- DailyGoal.
+- Achievement.
+- AppSettings.
+
+Requirements:
+
+- Proper primary keys.
+- Foreign key relationships.
+- Database indexes.
+- Data validation.
+- Database migrations.
+- Transaction safety.
+- Data integrity.
+- Persistent session history.
+
+Implement backup and restore.
+
+Provide CSV and PDF export.
+
+Allow complete deletion of personal data.
+
+If cloud synchronization is implemented, protect personal information with appropriate encryption, authentication and access controls.
+
+---
+
+# PART 6: USER INTERFACE AND BRANDING
+
+Create a premium professional wellness application.
+
+Design requirements:
+
+- Modern minimal design.
+- Beautiful typography.
+- Material Design 3.
+- Smooth animations.
+- Rounded cards.
+- Attractive breathing animations.
+- Professional charts.
+- Consistent icons.
+- Accessible colors.
+- Responsive layouts.
+- Light mode.
+- Dark mode.
+- System theme.
+- Tablet compatibility.
+
+Bottom navigation:
+
+1. Home.
+2. Breathe.
+3. Focus.
+4. Habits.
+5. Profile.
+
+Provide easy access to Buteyko, Meditation, Sleep, Schedule and Analytics.
+
+Create:
+
+- Application logo.
+- Launcher icon.
+- Splash screen.
+- Onboarding screens.
+- Empty states.
+- Error screens.
+- Permission screens.
+- Loading states.
+- Completion screens.
+
+Create original branding and do not copy another application's proprietary artwork.
+
+---
+
+# PART 7: ANDROID PERMISSIONS AND SECURITY
+
+Review every permission and include only permissions genuinely needed.
+
+Evaluate:
+
+- POST_NOTIFICATIONS.
+- VIBRATE.
+- RECEIVE_BOOT_COMPLETED.
+- SCHEDULE_EXACT_ALARM or appropriate alternative, if needed.
+- FOREGROUND_SERVICE and applicable service permissions, if needed.
+- INTERNET, only where network functionality is implemented.
+
+Do not request unnecessary access to:
+- Contacts.
+- SMS.
+- Call logs.
+- Location.
+- Microphone.
+- Camera.
+- Personal files.
+
+If microphone functionality is added, request permission only when needed and explain its purpose.
+
+Implement:
+- Secure storage.
+- Input validation.
+- Safe database access.
+- Secure network communication.
+- No exposed API keys.
+- No hardcoded passwords.
+- No sensitive information in logs.
+- Proper error handling.
+
+Do not collect or transmit personal health information unnecessarily.
+
+---
+
+# PART 8: APPLICATION TESTING
+
+Before generating release files, test the complete application.
+
+Test:
+
+1. Application installation.
+2. First launch.
+3. Onboarding.
+4. Navigation.
+5. Breathing timers.
+6. Animation synchronization.
+7. Buteyko measurements.
+8. Pomodoro timer.
+9. Habit completion.
+10. Streak calculation.
+11. Reminder scheduling.
+12. Notification permissions.
+13. Background operation.
+14. Screen-lock operation.
+15. Device restart recovery.
+16. Database persistence.
+17. Data export.
+18. Data restore.
+19. Dark mode.
+20. Different screen sizes.
+21. Time-zone changes.
+22. Offline operation.
+23. App update behaviour.
+24. Battery consumption.
+25. Crash and error handling.
+
+Run unit tests, integration tests and UI tests.
+
+Run the Android Gradle build.
+
+Resolve all compilation errors before release.
+
+Do not report a test as passed unless it was actually executed successfully.
+
+---
+
+# PART 9: GENERATE THE COMPLETE ANDROID STUDIO PROJECT
+
+This is mandatory.
+
+Create the complete Android Studio project with:
+
+- settings.gradle.kts.
+- Root build.gradle.kts.
+- app/build.gradle.kts.
+- gradle.properties.
+- gradle wrapper files.
+- AndroidManifest.xml.
+- Kotlin source files.
+- Resource files.
+- Drawable assets.
+- Launcher icons.
+- Fonts where applicable.
+- Database implementation.
+- Navigation implementation.
+- Unit tests.
+- Instrumentation tests.
+- README.md.
+- Privacy policy document.
+- Release configuration.
+
+The project must open in Android Studio without requiring reconstruction of missing files.
+
+Do not provide only code snippets.
+
+Create all required files and directories.
+
+---
+
+# PART 10: APK AND AAB GENERATION – MANDATORY
+
+I specifically require actual Android installation and publishing files.
+
+Do not stop after generating source code.
+
+Generate the following:
+
+### A. Debug APK
+
+Filename:
+
+BreatheLife-debug.apk
+
+Purpose:
+- Internal testing.
+- Installation on Android phones.
+- Feature verification.
+
+### B. Release APK
+
+Filename:
+
+BreatheLife-release.apk
+
+Purpose:
+- Direct installation.
+- Distribution outside Google Play.
+- Final release testing.
+
+The release APK must be signed with a release signing key.
+
+### C. Android App Bundle
+
+Filename:
+
+BreatheLife-release.aab
+
+Purpose:
+- Google Play Store submission.
+- Play App Signing compatibility.
+- Production distribution.
+
+The AAB must be generated using the release build configuration and must pass bundle validation.
+
+### D. Build instructions
+
+Include:
+
+- Exact Gradle commands.
+- Build configuration.
+- Signing configuration.
+- Version configuration.
+- APK location.
+- AAB location.
+- Installation instructions.
+- Build troubleshooting instructions.
+
+Use commands equivalent to:
+
+Debug APK:
+./gradlew assembleDebug
+
+Release APK:
+./gradlew assembleRelease
+
+Release AAB:
+./gradlew bundleRelease
+
+Verify the exact generated files.
+
+Check that:
+- APK files exist.
+- AAB file exists.
+- APK signature is valid.
+- AAB structure is valid.
+- Package name is correct.
+- Version code is correct.
+- Version name is correct.
+
+Do not claim files have been generated unless they actually exist.
+
+If Google AI Studio cannot execute Android Gradle builds in its environment, create the complete Android Studio project and all required build scripts. Clearly state that the APK/AAB generation must then be executed in Android Studio or another compatible Android build environment.
+
+Do not substitute a web application preview or PWA for the native Android APK.
+
+---
+
+# PART 11: RELEASE SIGNING AND KEYSTORE
+
+Implement a secure release-signing workflow.
+
+Create instructions for generating a private Android release keystore.
+
+Example:
+
+keytool -genkeypair -v -keystore breathelife-release.jks -keyalg RSA -keysize 4096 -validity 10000 -alias breathelife
+
+Requirements:
+
+1. Never hardcode keystore passwords.
+2. Never commit private signing credentials to Git.
+3. Use environment variables or an untracked local properties file.
+4. Add keystore and credential files to .gitignore.
+5. Never expose private signing credentials in the generated documentation.
+6. Provide instructions for safely backing up the keystore.
+7. Preserve the same signing identity for future application updates.
+8. Explain that losing the signing credentials can complicate future updates, subject to Play App Signing arrangements.
+
+Prepare the project for Google Play App Signing.
+
+Do not upload the keystore or passwords to Google AI Studio, public repositories or the application package.
+
+---
+
+# PART 12: GOOGLE PLAY STORE PUBLICATION PREPARATION
+
+Prepare ALL required application listing assets and documentation.
+
+### A. Application information
+
+Create:
+
+- Application name.
+- Short description.
+- Full description.
+- App category recommendation.
+- Keywords.
+- Contact email placeholder.
+- Developer website placeholder.
+- Privacy policy URL placeholder.
+
+Suggested application title:
+
+BreatheLife – Breathing & Habits
+
+Suggested short description:
+
+Breathing exercises, Buteyko practice, meditation, Pomodoro focus and habit tracking in one app.
+
+Create a professional, original, keyword-friendly full Play Store description.
+
+Do not make misleading medical or health claims.
+
+### B. Graphics and images
+
+Generate the following assets:
+
+1. High-resolution application icon: 512 × 512 pixels.
+2. Feature graphic: 1024 × 500 pixels.
+3. Phone screenshot set.
+4. Tablet screenshot set, if tablet support is declared.
+5. Onboarding screenshots.
+6. Main dashboard screenshot.
+7. Breathing exercise screenshot.
+8. Buteyko module screenshot.
+9. Pomodoro screenshot.
+10. Habit tracker screenshot.
+11. Meditation screenshot.
+12. Analytics screenshot.
+
+Screenshots must show the actual implemented application, not fabricated screens that do not exist in the released build.
+
+Provide properly sized image files and organize them in:
+
+play-store-assets/
+    app-icon/
+    feature-graphic/
+    phone-screenshots/
+    tablet-screenshots/
+
+Use actual supported device screenshots after the app is built whenever possible.
+
+### C. Privacy policy
+
+Create a complete, professional Privacy Policy document.
+
+Include:
+
+- Information collected.
+- Information not collected.
+- Local data storage.
+- Optional cloud data storage.
+- Third-party services.
+- Firebase disclosures, if implemented.
+- Health-related data handling.
+- Data security.
+- Data retention.
+- Data deletion.
+- Children's privacy.
+- User rights.
+- Contact information.
+
+Clearly distinguish between locally stored data and data transmitted to external services.
+
+Do not claim that data is never collected if Firebase, analytics or other external services collect it.
+
+Create:
+
+PRIVACY_POLICY.md
+
+Also create a publication-ready HTML version:
+
+privacy-policy.html
+
+The HTML should be suitable for hosting on a public website.
+
+Do not invent an actual privacy policy URL or contact address. Provide clearly marked placeholders until the developer supplies them.
+
+### D. Terms and conditions
+
+Create:
+
+TERMS_AND_CONDITIONS.md
+
+Include:
+- Acceptable use.
+- Account responsibilities.
+- Wellness disclaimer.
+- Medical disclaimer.
+- Intellectual property.
+- Third-party services.
+- Limitation of liability.
+- Termination.
+- Contact information.
+
+### E. Health disclaimer
+
+Create a dedicated health disclaimer.
+
+Clearly state:
+
+BreatheLife is a general wellness and productivity application. It is not a medical device and does not diagnose, treat, cure or prevent diseases.
+
+Breathing exercises are not substitutes for professional medical care.
+
+Users should stop exercises if they experience discomfort, dizziness, chest pain or breathing difficulty.
+
+Users with relevant medical conditions should seek professional medical advice before attempting advanced breathing techniques.
+
+Do not encourage users to discontinue prescribed treatment.
+
+### F. Google Play Data Safety declaration
+
+Create a detailed Data Safety preparation document.
+
+Filename:
+
+GOOGLE_PLAY_DATA_SAFETY.md
+
+Identify:
+
+- Data collected.
+- Data shared.
+- Data processed locally.
+- Data encrypted in transit.
+- Account deletion requirements, if accounts are supported.
+- Third-party SDK data collection.
+- Data retention.
+- User deletion options.
+
+Base all declarations on the actual implementation and third-party SDK behaviour.
+
+Do not fabricate compliance declarations.
+
+### G. Google Play App Access
+
+Create:
+
+APP_ACCESS_INSTRUCTIONS.md
+
+Explain:
+- Whether login is required.
+- How reviewers can access the application.
+- How to use all features.
+- Whether any features require external accounts.
+- Any special testing instructions.
+
+If the app works without login, explicitly state that.
+
+### H. Content rating and target audience
+
+Prepare:
+
+CONTENT_RATING_AND_TARGET_AUDIENCE.md
+
+Include recommended answers for the Google Play content rating questionnaire based on actual application functionality.
+
+Recommend an appropriate target audience.
+
+Do not falsely declare the app suitable for children if the application has not been designed and tested for child-directed use.
+
+### I. Permission declaration
+
+Create:
+
+PLAY_STORE_PERMISSIONS.md
+
+For every requested Android permission explain:
+- Purpose.
+- Feature requiring it.
+- Whether it is mandatory.
+- Whether an alternative exists.
+
+Remove permissions that are not needed.
+
+### J. App testing and release checklist
+
+Create:
+
+GOOGLE_PLAY_RELEASE_CHECKLIST.md
+
+Include all steps necessary before submission.
+
+---
+
+# PART 13: GOOGLE PLAY POLICY AND COMPATIBILITY CHECK
+
+Before declaring the project ready for publication, check the current Google Play requirements.
+
+Verify:
+
+1. Target API level requirements.
+2. Minimum Android version.
+3. Android App Bundle requirements.
+4. Application signing.
+5. Privacy policy requirements.
+6. Data Safety form requirements.
+7. Content rating.
+8. App access requirements.
+9. Permissions policy.
+10. Health-related app requirements.
+11. Health apps declaration, if applicable.
+12. Store listing requirements.
+13. Screenshot requirements.
+14. Feature graphic requirements.
+15. App icon requirements.
+16. Account deletion requirements, if applicable.
+17. User data policies.
+18. Advertising declarations, if applicable.
+19. SDK and dependency requirements.
+20. Current Play Console testing requirements.
+
+Use the latest applicable Google Play policies at the time of release.
+
+Do not assume old API requirements remain valid.
+
+Create:
+
+GOOGLE_PLAY_COMPLIANCE_REPORT.md
+
+Include:
+- Requirement.
+- Implementation status.
+- Evidence.
+- Pending developer action.
+- Pass/fail status.
+
+Clearly distinguish verified compliance from items that require developer or Play Console confirmation.
+
+---
+
+# PART 14: VERSIONING AND FUTURE UPDATES
+
+Implement:
+
+- Version code.
+- Version name.
+- Release notes.
+- Database migration strategy.
+- Backward compatibility.
+- Update-safe database changes.
+- Build variants.
+- Debug configuration.
+- Release configuration.
+
+Start with:
+
+versionName = "1.0.0"
+
+Use an appropriate initial version code and make future increments straightforward.
+
+Create:
+
+CHANGELOG.md
+
+Create:
+
+RELEASE_NOTES.md
+
+---
+
+# PART 15: FINAL PROJECT DIRECTORY
+
+Organize the final deliverables as follows:
+
+BreatheLife/
+    
+    android-project/
+        app/
+        core/
+        data/
+        domain/
+        feature_dashboard/
+        feature_breathing/
+        feature_buteyko/
+        feature_meditation/
+        feature_pomodoro/
+        feature_habits/
+        feature_sleep/
+        feature_calendar/
+        feature_analytics/
+        feature_settings/
+        gradle/
+        build.gradle.kts
+        settings.gradle.kts
+        gradle.properties
+        README.md
+
+    release/
+        BreatheLife-debug.apk
+        BreatheLife-release.apk
+        BreatheLife-release.aab
+
+    play-store-assets/
+        app-icon/
+        feature-graphic/
+        phone-screenshots/
+        tablet-screenshots/
+
+    documentation/
+        PRIVACY_POLICY.md
+        TERMS_AND_CONDITIONS.md
+        GOOGLE_PLAY_DATA_SAFETY.md
+        GOOGLE_PLAY_COMPLIANCE_REPORT.md
+        GOOGLE_PLAY_RELEASE_CHECKLIST.md
+        PLAY_STORE_PERMISSIONS.md
+        APP_ACCESS_INSTRUCTIONS.md
+        CONTENT_RATING_AND_TARGET_AUDIENCE.md
+        RELEASE_NOTES.md
+        CHANGELOG.md
+
+    signing/
+        README_SIGNING.md
+
+Do not include private signing credentials in the distributable project.
+
+If an asset or release file cannot be generated in the current environment, explicitly report it as pending instead of creating an empty or fake file.
+
+---
+
+# PART 16: GOOGLE PLAY CONSOLE SUBMISSION GUIDE
+
+Create a detailed step-by-step guide for publishing the application.
+
+Cover:
+
+1. Create a Google Play Developer account.
+2. Complete developer identity verification.
+3. Create a new application in Play Console.
+4. Enter application name.
+5. Select application type and category.
+6. Upload the application icon.
+7. Upload the feature graphic.
+8. Upload screenshots.
+9. Enter short description.
+10. Enter full description.
+11. Host the privacy policy.
+12. Complete Data Safety.
+13. Complete content rating.
+14. Complete target audience declaration.
+15. Complete app access information.
+16. Complete health app declarations where applicable.
+17. Upload the signed AAB.
+18. Configure Play App Signing.
+19. Review automated checks.
+20. Resolve warnings and errors.
+21. Configure testing tracks.
+22. Complete any applicable mandatory testing requirements.
+23. Submit for review.
+24. Monitor review status.
+25. Publish after approval.
+
+Use the actual current Play Console interface and requirements when preparing the instructions.
+
+Do not claim that the app is published or approved merely because the AAB was generated.
+
+The developer must perform final account verification, declarations, testing-track actions and submission.
+
+---
+
+# PART 17: FINAL QUALITY GATE
+
+Before considering development complete, verify the following.
+
+| Deliverable | Required status |
+|---|---|
+| Complete Android Studio project | Generated |
+| Native Kotlin implementation | Verified |
+| Breathing module | Tested |
+| Buteyko module | Tested |
+| Pomodoro timer | Tested |
+| Habit tracker | Tested |
+| Meditation module | Tested |
+| Scheduling | Tested |
+| Notifications | Tested |
+| Database persistence | Tested |
+| Offline functionality | Tested |
+| Debug APK | Generated |
+| Release APK | Generated and signed |
+| Release AAB | Generated and validated |
+| App icon | Generated |
+| Feature graphic | Generated |
+| Screenshots | Captured from actual app |
+| Privacy policy | Created |
+| Terms and conditions | Created |
+| Data Safety preparation | Created |
+| Permissions documentation | Created |
+| Compliance report | Created |
+| Release notes | Created |
+| Play Store listing text | Created |
+| Publishing guide | Created |
+
+Use real test results. Do not mark incomplete deliverables as completed.
+
+---
+
+# PART 18: HOW YOU MUST EXECUTE THIS PROJECT
+
+Work systematically in the following stages.
+
+STAGE 1 – Architecture:
+Create project architecture, database design, UI navigation and development plan.
+
+STAGE 2 – Core application:
+Implement onboarding, profile, dashboard, navigation, database and settings.
+
+STAGE 3 – Breathing:
+Implement breathing library, animation engine and Buteyko module.
+
+STAGE 4 – Productivity:
+Implement Pomodoro, task management and habit tracker.
+
+STAGE 5 – Wellness:
+Implement meditation, sleep and relaxation.
+
+STAGE 6 – Scheduling:
+Implement calendar, reminders and notification engine.
+
+STAGE 7 – Analytics:
+Implement progress reports, charts and export.
+
+STAGE 8 – Security:
+Review permissions, privacy, data handling and application security.
+
+STAGE 9 – Testing:
+Run compilation, unit tests, integration tests and UI tests. Resolve issues.
+
+STAGE 10 – Release:
+Generate debug APK, signed release APK and signed AAB.
+
+STAGE 11 – Play Store:
+Generate graphics, descriptions, privacy documents, Data Safety preparation, compliance report and publishing guide.
+
+STAGE 12 – FINAL DELIVERY:
+Provide all generated files, source code, APK, AAB, documentation and installation instructions.
+
+Maintain a development progress checklist throughout the entire process.
+
+When continuing in a new AI Studio interaction, inspect the existing project and continue from the last completed stage. Never overwrite working features or regenerate the entire application unnecessarily.
+
+---
+
+# FINAL NON-NEGOTIABLE REQUIREMENTS
+
+1. Build a real native Android application.
+2. Deliver complete source code.
+3. Implement all requested core modules.
+4. Make the application usable offline.
+5. Make all timers and reminders functional.
+6. Implement persistent database storage.
+7. Generate an actual debug APK.
+8. Generate an actual signed release APK.
+9. Generate an actual signed Android App Bundle.
+10. Generate all Play Store assets.
+11. Generate privacy and legal documentation.
+12. Prepare the Data Safety and compliance documentation.
+13. Provide complete Android Studio build instructions.
+14. Provide Google Play Console submission instructions.
+15. Never invent test results.
+16. Never generate fake APK or AAB files.
+17. Never claim Google Play approval without actual approval.
+18. Never expose signing credentials.
+19. Do not leave important features as non-functional placeholders.
+20. Do not stop at a UI preview.
+
+**ULTIMATE OBJECTIVE:**
+
+Deliver BreatheLife as a complete, professionally designed, secure, stable and installable Android wellness application, including its complete Android Studio source project, working features, debug APK, signed release APK, signed AAB, application graphics, store listing content, legal documentation, compliance preparation and Google Play Store publishing instructions.
+
+The final deliverable must enable me to install the application on my Android phone, test it, and proceed with publishing it on Google Play Store using my own developer account.
+
+Start by inspecting the available development environment and determining whether native Android Gradle builds are supported. Then begin Stage 1 and proceed through all stages until the maximum achievable deliverables have actually been generated and verified.

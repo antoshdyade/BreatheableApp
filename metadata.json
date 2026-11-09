@@ -1,0 +1,6 @@
+{
+  "name": "BreatheLife – Complete Wellness, Breathing & Habits App",
+  "description": "Professional Breathing, Buteyko Training, Meditation, Pomodoro Focus & Habit Tracking Android wellness application and cross-platform companion with full project assets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
